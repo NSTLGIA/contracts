@@ -11,7 +11,7 @@ POAP has its own off chain raffle function. But on-chain way of picking winner i
 2- compile : npx hardhat compile <br>
 3- deploy : npx hardhat run --network localhost scripts_deploy/deploy.js <br>
 
-4- test :
+4- test :<br>
 you can test smart contract by runnnig javascript code with expected parameters.
 
 As a preparetion, you need to do:<br>
@@ -21,7 +21,7 @@ As a preparetion, you need to do:<br>
 Issuing POAP: https://app.poap.xyz/admin/events/new/ <br>
 POAP contract on Gnosis chain: 0x22c1f6050e56d2876009903609a2cc3fef83b415 <br>
 
-- Main Functions
+- Main Function s<br>
 ① createRaffle(eventNum, winnersNum, expiry, participants, tokenURI) <br>
 ② pickAndMint(raffleNum) <br>
 
