@@ -15,7 +15,8 @@ POAP has its own off chain raffle function. But on-chain way of picking winner i
 you can test smart contract by runnnig javascript code with expected parameters.
 
 As a preparetion, you need to do:<br>
-1- send funds to wallet on Gnosis chain: Testing only can be done on Gnosis chain since poap contract exists there. No worries, it's super cheap and fast than Ethereum mainnet for sure. <br>
+1- send funds to wallet on Gnosis chain: Testing only can be done on Gnosis chain since poap contract exists there. <br>
+*It won't bother you that much because it's way cheaper and faster than Ethereum mainnet. <br>
 2- create sample POAP on poap.xyz: this raffle contract should interact with real poap contract. <br>
 
 Issuing POAP: https://app.poap.xyz/admin/events/new/ <br>
