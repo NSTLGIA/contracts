@@ -8,7 +8,7 @@ POAP has its own off chain raffle function. But on-chain way of picking winner i
 
 ## Deployment
 1- install dependencies : `npm i` <br>
-2- compile : npx hardhat `compile` <br>
+2- compile : `npx hardhat compile` <br>
 3- deploy : `npx hardhat run deploy/deploy.js --network gnosis`  <br>
 
 4- test : `npx hardhat run scripts/raffle.js` <br>
