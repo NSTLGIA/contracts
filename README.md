@@ -2,7 +2,7 @@
 
 In NSTLGIA, the participants of techno events can collect and check their POAP as a proof of attendance. This raffle contract picks winners out of those POAP holders for each event and mint/distribute newly created NFTs to them. Those NFTs are rights to claim promo code for the next event ticket on NSTLGIA app. 
 
-We believe that this raffle functionality not oonly incentivizes more people to claim POAP but entertain them. Minted NFTs can also be anything like NFT art, music and community membership ( being used as a voting right, too). 
+We believe that this raffle functionality not only incentivizes more people to claim POAP but entertain them. Minted NFTs can also be anything like NFT art, music and community membership ( being used as a voting right, too). 
 
 POAP has its own off chain raffle function. But on-chain way of picking winner is complex and challenging to implement but more transparent and composable with other on-chain dapps. 
 
