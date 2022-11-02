@@ -21,6 +21,7 @@ As a preparetion, you need to do:<br>
 Issuing POAP: https://app.poap.xyz/admin/events/new/ <br>
 POAP contract on Gnosis chain: 0x22c1f6050e56d2876009903609a2cc3fef83b415 <br>
 
+- Main Functions
 ① createRaffle(eventNum, winnersNum, expiry, participants, tokenURI) <br>
 ② pickAndMint(raffleNum) <br>
 
