@@ -7,7 +7,7 @@ We believe that this raffle functionality not oonly incentivizes more people to 
 POAP has its own off chain raffle function. But on-chain way of picking winner is complex and challenging to implement but more transparent and composable with other on-chain dapps. 
 
 ## Deployment
-1- install dependencies : npm i <br>
+1- install dependencies : `npm i` <br>
 2- compile : npx hardhat compile <br>
 3- deploy : npx hardhat run deploy/deploy.js --network gnosis  <br>
 
