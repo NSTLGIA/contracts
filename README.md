@@ -4,7 +4,7 @@ In NSTLGIA, the participants of techno events can collect and check their POAP a
 
 We believe that this raffle functionality not oonly incentivizes more people to claim POAP but entertain them. Minted NFTs can also be anything like NFT art, music and community membership ( being used as a voting right, too). 
 
-POAP has its own off chain raffle function. But on-chain way of picking winner is complex and challengin to implement but more transparent and composable with other on-chain dapps. 
+POAP has its own off chain raffle function. But on-chain way of picking winner is complex and challenging to implement but more transparent and composable with other on-chain dapps. 
 
 ## Deployment
 1- install dependencies : npm i <br>
