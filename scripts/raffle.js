@@ -7,11 +7,9 @@ const signer = new ethers.Wallet(process.env.dev_pk, provider)
 
 const dev = process.env.dev;
 
-const change = a;
-
 //const raffle_abi = require("./abi/raffleNFT.json")
 const raffle_abi = require("../artifacts/Contracts/POAPRaffle.sol/POAPRaffle.json")
-const raffle_address = "0x268Ae06E645e2bB0B0F6Ddf4Ed42d1E6CD6234cA"
+const raffle_address = ""
 const raffle = new ethers.Contract(raffle_address, raffle_abi.abi, signer)
 
 async function func() {
@@ -24,12 +22,12 @@ async function func() {
 }
 
 async function createRaffle() {
-    const eventNum = "80418";
-    const winnersNum = "2";
+    const eventNum = "";
+    const winnersNum = "";
     const waiting_duration = 10 // 2minutes(test) / days or weeks in prod
     const expiry = (ethers.BigNumber.from(Math.round(Date.now()/1000) + waiting_duration)).toString() // 1667079411
     const participants = [process.env.participant1, process.env.participant2, process.env.participant3]
-    const tokenURI = "maxs-dj-live-at-left-bank-2022-logo-1667130992849.png"
+    const tokenURI = ""
 
     const raffleSigner = raffle.connect(signer);
     const raffleCount = await raffleSigner.callStatic.createRaffle(eventNum, winnersNum, expiry, participants, tokenURI);
